@@ -1,0 +1,10 @@
+<h3>Top Todo</h3>
+<!-- <div class="container-fluid"> -->
+    <div class="grid grid-pad row">
+      <div *ngFor="let todo of todoArray" (click)="gotoDetail(todo)" class="col-md-3 col-sm-6 col-xs-12">
+        <div class="module todo">
+          <h4>{{todo.name}}</h4>
+        </div>
+      </div>
+    </div>
+<!-- </div> -->
